@@ -19,8 +19,8 @@ ext {
 
     // Get commit id of HEAD.
     revision = git.head(arena).id
-    // Alternative is using abbreviatedId of head() method.
-    // revision = git.head().abbreviatedId
+    // Alternative is using abbreviatedId of head(arena) method.
+    // revision = git.head(arena).abbreviatedId
 }
 
 //version = "mc${mc_version}-v${mod_version}-${git.head().abbreviatedId}"
